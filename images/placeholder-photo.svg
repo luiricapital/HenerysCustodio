@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1c38"/>
+      <stop offset="100%" stop-color="#08132a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect x="16" y="16" width="768" height="768" fill="none" stroke="#c21820" stroke-width="3" stroke-dasharray="14 10" opacity="0.8"/>
+  <circle cx="400" cy="320" r="120" fill="#faf8f5" opacity="0.22"/>
+  <path d="M220 640c0-100 80-180 180-180s180 80 180 180" fill="#faf8f5" opacity="0.22"/>
+  <text x="400" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#faf8f5" opacity="0.75">FOTO PENDIENTE</text>
+  <text x="400" y="746" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#faf8f5" opacity="0.55">Henerys Custodio</text>
+</svg>

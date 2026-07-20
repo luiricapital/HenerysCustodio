@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; frame-src 'none'; connect-src 'none';">
+<title>Consultoría — Henerys Custodio</title>
+<meta name="description" content="[PLACEHOLDER] Asesoría estratégica institucional con Henerys Custodio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          cream: '#faf8f5', 'cream-2': '#f3efe9', navy: '#0d1c38', 'navy-deep': '#08132a',
+          coral: '#c21820', 'coral-deep': '#9a1319',
+        },
+        fontFamily: {
+          display: ['"Playfair Display"', 'Georgia', 'serif'],
+          sans: ['Urbanist', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+<style>
+  body { font-family: 'Urbanist', ui-sans-serif, system-ui, sans-serif; background-color: #ffffff; }
+  .btn-press:active { transform: scale(0.97); }
+  ::selection { background: #c21820; color: #faf8f5; }
+</style>
+</head>
+<body class="text-navy antialiased">
+
+<header class="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-md border-b border-navy/10">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 h-[76px] flex items-center gap-6">
+    <a href="index.html" class="flex items-center gap-2 shrink-0">
+      <span class="font-display font-bold text-2xl text-navy">Henerys <span class="text-coral">Custodio</span></span>
+    </a>
+    <nav class="ml-auto hidden lg:flex items-center gap-1 text-[15px] font-medium">
+      <a href="sobre.html" class="px-4 py-2 rounded-full text-navy/75 hover:text-coral hover:bg-navy/5 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral">Sobre Henerys</a>
+      <a href="speaker.html" class="px-4 py-2 rounded-full text-navy/75 hover:text-coral hover:bg-navy/5 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral">Speaker</a>
+      <a href="consultoria.html" class="px-4 py-2 rounded-full text-coral font-semibold">Consultoría</a>
+      <a href="contacto.html" class="px-4 py-2 rounded-full text-navy/75 hover:text-coral hover:bg-navy/5 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral">Contáctame</a>
+    </nav>
+    <a href="contacto.html" class="ml-auto lg:ml-0 btn-press shrink-0 inline-flex items-center justify-center rounded-full bg-coral px-6 py-3 text-sm font-bold text-cream shadow-[0_4px_14px_-2px_rgba(194,24,32,0.45)] hover:bg-coral-deep active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy transition-all duration-200">
+      Trabajemos Juntos
+    </a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="relative min-h-[380px] flex items-end overflow-hidden bg-navy-deep pt-32">
+  <img src="images/henerys-stage.png" alt="Henerys Custodio" class="absolute inset-0 h-full w-full object-cover opacity-85">
+  <div class="absolute inset-0 bg-gradient-to-t from-navy-deep via-navy-deep/70 to-navy-deep/30"></div>
+  <div class="relative mx-auto max-w-6xl px-4 sm:px-6 pb-16">
+    <h1 class="max-w-2xl font-sans font-extrabold text-cream text-[32px] sm:text-[48px] leading-[1.1] tracking-[-0.02em]">
+      Asesoría estratégica para instituciones que evolucionan.
+    </h1>
+    <p class="mt-5 max-w-xl text-cream/75 leading-[1.7]">Acompañamiento estratégico para líderes y equipos que buscan certificar y transformar su ecosistema de manera sostenible y rigurosa.</p>
+    <a href="contacto.html" class="btn-press mt-7 inline-flex items-center gap-2 rounded-xl bg-coral px-6 py-3.5 text-sm font-bold text-cream hover:bg-coral-deep active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream transition-all duration-200">
+      Solicitar Propuesta
+    </a>
+  </div>
+</section>
+
+<!-- Oferta completa -->
+<section class="py-16 md:py-24 bg-white">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <p class="text-xs font-bold tracking-[0.2em] text-coral text-center">OFERTA COMPLETA</p>
+    <h2 class="mt-4 text-center font-sans font-extrabold text-[28px] sm:text-[40px] leading-[1.15] tracking-[-0.02em] text-navy">Cómo puedo ayudarte</h2>
+    <p class="mt-3 max-w-xl mx-auto text-center text-navy/60 leading-[1.7]">Soluciones integrales para los desafíos más complejos de la certificación y transformación institucional.</p>
+
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="rounded-2xl bg-cream-2 p-6 border border-navy/10">
+        <span class="w-10 h-10 rounded-lg bg-coral/10 flex items-center justify-center text-coral"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20l9-16H3z"/></svg></span>
+        <h3 class="mt-4 font-bold text-navy">Keynotes Institucionales</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">Charlas magistrales de alto impacto para universidades, cámaras y gremios. Duración: 45–60 minutos.</p>
+        <ul class="mt-4 space-y-1.5 text-sm text-navy/70">
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Español</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Presencial / Virtual / Híbrido</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Material de apoyo incluido</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl bg-cream-2 p-6 border border-navy/10">
+        <span class="w-10 h-10 rounded-lg bg-coral/10 flex items-center justify-center text-coral"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg></span>
+        <h3 class="mt-4 font-bold text-navy">Workshops Institucionales</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">Talleres de alta interacción con ejercicios prácticos y aplicación inmediata. Sesiones de 4 horas a programas de varios días.</p>
+        <ul class="mt-4 space-y-1.5 text-sm text-navy/70">
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Diseño personalizado</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Dinámicas prácticas</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Plan de acción concreto</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl bg-cream-2 p-6 border border-navy/10">
+        <span class="w-10 h-10 rounded-lg bg-coral/10 flex items-center justify-center text-coral"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9c.5.4.8 1 .8 1.6h5.4c0-.6.3-1.2.8-1.6A6 6 0 0012 3z"/></svg></span>
+        <h3 class="mt-4 font-bold text-navy">Asesoría Estratégica</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">Acompañamiento personalizado para rediseñar la estrategia de certificación o estructura de gestión institucional.</p>
+        <ul class="mt-4 space-y-1.5 text-sm text-navy/70">
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Diagnóstico de madurez institucional</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Planes de transformación</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Sesiones ejecutivas</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl bg-cream-2 p-6 border border-navy/10">
+        <span class="w-10 h-10 rounded-lg bg-coral/10 flex items-center justify-center text-coral"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></span>
+        <h3 class="mt-4 font-bold text-navy">Certificación Institucional</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">Implementación y fortalecimiento de procesos de certificación para optimizar recursos y maximizar impacto.</p>
+        <ul class="mt-4 space-y-1.5 text-sm text-navy/70">
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Estructura de gobernanza</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Metodologías propias</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>KPIs y métricas</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl bg-cream-2 p-6 border border-navy/10">
+        <span class="w-10 h-10 rounded-lg bg-coral/10 flex items-center justify-center text-coral"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12.5V17c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.5"/></svg></span>
+        <h3 class="mt-4 font-bold text-navy">Formación de Ecosistema</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">Análisis de oportunidades, ética y gestión del cambio en procesos de formación emprendedora.</p>
+        <ul class="mt-4 space-y-1.5 text-sm text-navy/70">
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Enfoque humano</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Casos de uso prácticos</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>Roadmap de implementación</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl bg-cream-2 p-6 border border-navy/10">
+        <span class="w-10 h-10 rounded-lg bg-coral/10 flex items-center justify-center text-coral"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 4.6a5 5 0 00-7.1 0L12 6.3l-1.7-1.7a5 5 0 10-7.1 7.1L12 20.4l8.8-8.7a5 5 0 000-7.1z"/></svg></span>
+        <h3 class="mt-4 font-bold text-navy">[PLACEHOLDER] Programa Adicional</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">[PLACEHOLDER] Descripción del servicio.</p>
+        <ul class="mt-4 space-y-1.5 text-sm text-navy/70">
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>[Punto 1]</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>[Punto 2]</li>
+          <li class="flex items-center gap-2"><svg class="w-3.5 h-3.5 text-coral shrink-0" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>[Punto 3]</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Metodología -->
+<section class="py-16 md:py-24 bg-cream-2">
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 text-center">
+    <p class="text-xs font-bold tracking-[0.2em] text-coral">METODOLOGÍA</p>
+    <h2 class="mt-4 font-sans font-extrabold text-[28px] sm:text-[40px] leading-[1.15] tracking-[-0.02em] text-navy">Cómo trabajo</h2>
+
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8">
+      <div>
+        <span class="mx-auto flex w-12 h-12 rounded-full bg-navy text-cream items-center justify-center font-display font-bold text-lg">1</span>
+        <h3 class="mt-4 font-bold text-navy">Diagnóstico institucional</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">Cada charla, taller o asesoría se construye a partir de tus objetivos y la realidad de tu institución.</p>
+      </div>
+      <div>
+        <span class="mx-auto flex w-12 h-12 rounded-full bg-navy text-cream items-center justify-center font-display font-bold text-lg">2</span>
+        <h3 class="mt-4 font-bold text-navy">Enfoque humano</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">La certificación es un medio; las personas son el centro. Trabajamos primero en la cultura y luego en el sello.</p>
+      </div>
+      <div>
+        <span class="mx-auto flex w-12 h-12 rounded-full bg-navy text-cream items-center justify-center font-display font-bold text-lg">3</span>
+        <h3 class="mt-4 font-bold text-navy">Impacto medible</h3>
+        <p class="mt-2 text-sm text-navy/60 leading-[1.7]">Definimos métricas y resultados claros para que puedas ver y mostrar el retorno de la inversión.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tu evolución -->
+<section class="py-16 md:py-24 bg-navy text-cream">
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 text-center">
+    <p class="text-xs font-bold tracking-[0.2em] text-coral">TRANSFORMACIÓN</p>
+    <h2 class="mt-4 font-sans font-extrabold text-[28px] sm:text-[40px] leading-[1.15] tracking-[-0.02em]">Tu evolución</h2>
+    <p class="mt-3 text-cream/60">Lo que cambia cuando trabajamos juntos.</p>
+
+    <div class="mt-10 rounded-2xl bg-cream/5 border border-cream/10 overflow-hidden">
+      <div class="grid grid-cols-2 text-xs font-bold tracking-wide text-cream/50 border-b border-cream/10">
+        <div class="px-6 py-3 text-left">ESTADO ACTUAL</div>
+        <div class="px-6 py-3 text-left text-coral">ESTADO FUTURO</div>
+      </div>
+      <div class="divide-y divide-cream/10 text-sm text-left">
+        <div class="grid grid-cols-2"><div class="px-6 py-4">Ecosistemas fragmentados</div><div class="px-6 py-4 font-medium">Instituciones certificadas</div></div>
+        <div class="grid grid-cols-2"><div class="px-6 py-4">Estructuras informales</div><div class="px-6 py-4 font-medium">Gobernanza rigurosa</div></div>
+        <div class="grid grid-cols-2"><div class="px-6 py-4">Reactivo ante problemas</div><div class="px-6 py-4 font-medium">Estratégico y proactivo</div></div>
+        <div class="grid grid-cols-2"><div class="px-6 py-4">Formación dispersa</div><div class="px-6 py-4 font-medium">Certificación con estándar</div></div>
+        <div class="grid grid-cols-2"><div class="px-6 py-4">Impacto no medido</div><div class="px-6 py-4 font-medium">KPIs y resultados claros</div></div>
+        <div class="grid grid-cols-2"><div class="px-6 py-4">Visibilidad limitada</div><div class="px-6 py-4 font-medium">Red iberoamericana de alianzas</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Por qué -->
+<section class="py-16 md:py-24 bg-white">
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 text-center">
+    <p class="text-xs font-bold tracking-[0.2em] text-coral">POR QUÉ HENERYS</p>
+    <h2 class="mt-4 font-sans font-extrabold text-[28px] sm:text-[40px] leading-[1.15] tracking-[-0.02em] text-navy">Por qué trabajar conmigo</h2>
+
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
+      <p class="flex items-start gap-3 text-navy/75"><svg class="w-5 h-5 text-coral shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Experiencia real liderando proyectos y ecosistemas de emprendimiento</p>
+      <p class="flex items-start gap-3 text-navy/75"><svg class="w-5 h-5 text-coral shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Enfoque humano, claro y sin tecnicismos innecesarios</p>
+      <p class="flex items-start gap-3 text-navy/75"><svg class="w-5 h-5 text-coral shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>[PLACEHOLDER] Reconocido internacionalmente</p>
+      <p class="flex items-start gap-3 text-navy/75"><svg class="w-5 h-5 text-coral shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Fundador de una de las comunidades de emprendimiento más rigurosas de RD</p>
+      <p class="flex items-start gap-3 text-navy/75"><svg class="w-5 h-5 text-coral shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Capacidad de conectar con públicos institucionales diversos</p>
+      <p class="flex items-start gap-3 text-navy/75"><svg class="w-5 h-5 text-coral shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Mensajes que forman y se ejecutan, no solo inspiran</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-cream-2">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 text-center">
+    <h2 class="font-sans font-extrabold text-2xl sm:text-3xl text-navy">¿Listo para iniciar la conversación?</h2>
+    <p class="mt-3 text-navy/60">Agenda una charla, workshop o sesión estratégica. Cada encuentro se diseña según tus necesidades.</p>
+    <a href="contacto.html" class="btn-press mt-6 inline-flex items-center gap-2 rounded-xl bg-coral px-6 py-3.5 text-sm font-bold text-cream hover:bg-coral-deep active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy transition-all duration-200">
+      Solicitar Propuesta
+    </a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-16 md:py-24 bg-white">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6">
+    <p class="text-xs font-bold tracking-[0.2em] text-coral text-center">PREGUNTAS FRECUENTES</p>
+    <h2 class="mt-4 text-center font-sans font-extrabold text-[28px] sm:text-[36px] leading-[1.15] tracking-[-0.02em] text-navy">Consultoría — Preguntas Frecuentes</h2>
+
+    <div class="mt-10 space-y-3">
+      <details class="group rounded-xl bg-cream-2 border border-navy/10 px-5 py-4">
+        <summary class="flex items-center justify-between cursor-pointer font-semibold text-navy list-none">
+          ¿Qué tipos de consultoría ofrece Henerys?
+          <span class="shrink-0 w-6 h-6 rounded-full bg-coral text-cream flex items-center justify-center text-lg group-open:rotate-45 transition-transform duration-200">+</span>
+        </summary>
+        <p class="mt-3 text-navy/60 leading-[1.7] text-sm">[PLACEHOLDER] Respuesta.</p>
+      </details>
+      <details class="group rounded-xl bg-cream-2 border border-navy/10 px-5 py-4">
+        <summary class="flex items-center justify-between cursor-pointer font-semibold text-navy list-none">
+          ¿Trabaja con instituciones fuera de República Dominicana?
+          <span class="shrink-0 w-6 h-6 rounded-full bg-coral text-cream flex items-center justify-center text-lg group-open:rotate-45 transition-transform duration-200">+</span>
+        </summary>
+        <p class="mt-3 text-navy/60 leading-[1.7] text-sm">[PLACEHOLDER] Respuesta.</p>
+      </details>
+      <details class="group rounded-xl bg-cream-2 border border-navy/10 px-5 py-4">
+        <summary class="flex items-center justify-between cursor-pointer font-semibold text-navy list-none">
+          ¿Cuál es la duración típica de un programa?
+          <span class="shrink-0 w-6 h-6 rounded-full bg-coral text-cream flex items-center justify-center text-lg group-open:rotate-45 transition-transform duration-200">+</span>
+        </summary>
+        <p class="mt-3 text-navy/60 leading-[1.7] text-sm">[PLACEHOLDER] Respuesta.</p>
+      </details>
+      <details class="group rounded-xl bg-cream-2 border border-navy/10 px-5 py-4">
+        <summary class="flex items-center justify-between cursor-pointer font-semibold text-navy list-none">
+          ¿Cómo arranca un proceso de consultoría?
+          <span class="shrink-0 w-6 h-6 rounded-full bg-coral text-cream flex items-center justify-center text-lg group-open:rotate-45 transition-transform duration-200">+</span>
+        </summary>
+        <p class="mt-3 text-navy/60 leading-[1.7] text-sm">[PLACEHOLDER] Respuesta.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- Sigue explorando -->
+<section class="py-16 md:py-20 bg-navy text-cream">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <h2 class="font-sans font-bold text-2xl">Sigue explorando</h2>
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <a href="speaker.html" class="rounded-xl bg-cream/5 border border-cream/10 p-5 hover:bg-cream/10 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral">
+        <p class="font-semibold">Charlas & Keynotes</p>
+        <p class="mt-1 text-sm text-cream/60">Temas, formatos y eventos.</p>
+      </a>
+      <a href="sobre.html" class="rounded-xl bg-cream/5 border border-cream/10 p-5 hover:bg-cream/10 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral">
+        <p class="font-semibold">Sobre Henerys</p>
+        <p class="mt-1 text-sm text-cream/60">Trayectoria, premios y propósito.</p>
+      </a>
+      <a href="contacto.html" class="rounded-xl bg-cream/5 border border-cream/10 p-5 hover:bg-cream/10 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral">
+        <p class="font-semibold">Contacto</p>
+        <p class="mt-1 text-sm text-cream/60">Cuéntame de tu proyecto.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-cream-2 border-t border-navy/10">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 py-14 grid grid-cols-1 sm:grid-cols-4 gap-10">
+    <div class="sm:col-span-1">
+      <span class="font-display font-bold text-xl text-navy">Henerys <span class="text-coral">Custodio</span></span>
+      <p class="mt-3 text-sm text-navy/60 leading-[1.7]">[PLACEHOLDER] Estratega y consultor en emprendimiento institucional.</p>
+    </div>
+    <div>
+      <p class="text-xs font-bold tracking-[0.15em] text-navy/50">NAVEGACIÓN</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a href="sobre.html" class="text-navy/70 hover:text-coral transition-colors duration-200">Sobre Henerys</a></li>
+        <li><a href="consultoria.html" class="text-navy/70 hover:text-coral transition-colors duration-200">Consultoría</a></li>
+        <li><a href="speaker.html" class="text-navy/70 hover:text-coral transition-colors duration-200">Speaker</a></li>
+        <li><a href="contacto.html" class="text-navy/70 hover:text-coral transition-colors duration-200">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="text-xs font-bold tracking-[0.15em] text-navy/50">SOBRE HENERYS</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><span class="text-navy/70">[PLACEHOLDER] Director CEMPRENDE — UNAPEC</span></li>
+        <li><span class="text-navy/70">[PLACEHOLDER] Tesorero RD Emprende</span></li>
+        <li><span class="text-navy/70">[PLACEHOLDER] Fundador EMDES Foundation</span></li>
+      </ul>
+    </div>
+    <div>
+      <p class="text-xs font-bold tracking-[0.15em] text-navy/50">CONTACTO</p>
+      <p class="mt-3 text-sm text-navy/70">[PLACEHOLDER]@heneryscustodio.com</p>
+      <p class="mt-2 text-sm text-navy/70">Santo Domingo, República Dominicana</p>
+      <p class="mt-2 text-sm text-navy/50">Lunes–Viernes 8:00 am – 5:00 pm</p>
+      <div class="mt-4 flex items-center gap-3">
+        <a href="#" aria-label="Instagram" class="w-9 h-9 rounded-full border border-navy/15 flex items-center justify-center text-navy/60 hover:text-coral hover:border-coral/40 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="LinkedIn" class="w-9 h-9 rounded-full border border-navy/15 flex items-center justify-center text-navy/60 hover:text-coral hover:border-coral/40 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11.02 5 2.5 2.5 0 01-.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-navy/10">
+    <p class="mx-auto max-w-6xl px-4 sm:px-6 py-5 text-xs text-navy/40">Copyright © 2026 Henerys Custodio.</p>
+  </div>
+</footer>
+
+</body>
+</html>
