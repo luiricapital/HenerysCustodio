@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Urbanist', ui-sans-serif, system-ui, sans-serif;
+  background-color: #ffffff;
+}
+
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+::selection {
+  background: #c21820;
+  color: #faf8f5;
+}
+
+.placeholder-badge {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.prose-henerys :where(h2) {
+  font-family: 'Playfair Display', Georgia, serif;
+}
